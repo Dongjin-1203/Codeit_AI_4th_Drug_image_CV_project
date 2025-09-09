@@ -14,8 +14,8 @@
 |역할|담당자|업무|
 |----|-----|-----|
 |Project Manager|신승목|프로젝트 일정관리, 진행상태 확인 및 종합. 최종 보고서 작성, 기타 부족한 부분 지원|
-|Data Enginner||데이터 파이프라인 구축, 데이터 EDA 시행, 파이프라인 자동화|
-|Model Architect + Experimentation Lead||CNN, ResNet등 관련 모델 구축, 모델 평가 및 모델 성능 개선을 위한 다양한 실험 진행|
+|Data Enginner|지동진|데이터 파이프라인 구축, 데이터 EDA 시행, 파이프라인 자동화|
+|Model Architect + Experimentation Lead|이재영(모델), 남경민(모델+튜닝), 이솔형(튜닝)|CNN, ResNet등 관련 모델 구축, 모델 평가 및 모델 성능 개선을 위한 다양한 실험 진행|
 
 ---
 
