@@ -1,0 +1,2 @@
+데이터셋 다운로드 링크  -> https://drive.google.com/drive/folders/1LpB7p9Aps7WBjAeGfh3zcQCJXXZsdqDH
+들어가서 train_annotations, train_image 폴더와 test_images 폴더만 다운로드 받으시면 됩니다
