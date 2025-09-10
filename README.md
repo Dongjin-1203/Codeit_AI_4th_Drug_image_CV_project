@@ -1,4 +1,4 @@
-# [코드잇 스프린트_AI_4기] 초급 팀프로젝트: 경구약제 이미지 객체 인식 모델
+# 📌 [코드잇 스프린트_AI_4기] 초급 팀프로젝트: 경구약제 이미지 객체 인식 모델
 ---
 코드잇 스프린트 초급 팀프로젝트이다. 이번 프로젝트의 목표는 사진 속에 있는 최대 4개의 알약의 이름(클래스)과 위치(바운딩 박스)를 검출하는 것이다. 또한 하이퍼파라미터 튜닝 등을 통해 최고 성능의 모델을 개발하는 것이 목표이다.
 팀은 5인 1팀으로 Project Manager / Data Engineer / Model Architect + Experimentation Lead 로 구성되어있다.
@@ -29,3 +29,48 @@
 - 평가 지표: mAP(mean Average Precision)
 - 1일 최대 제출 횟수: 5회
 - 리더보드는 Public / Private Score로 운영합니다 (최종 순위: Private Score 기준)
+---
+
+## 📂 폴더 구성
+```
+2025-HEALTH-VISION/
+├── MIT.License                  # 라이센스
+├── README.md                    # 프로젝트 문서
+├── git_clone.ipynb              # Git clone 실습 코드 
+```
+
+---
+## 🔧 Git 관련 핵심사항
+코랩에서 작업하시고 작업물 올리실때 다음 절차대로 하시면 되겠습니다.
+### 1. 작업 시작(코랩)
+```
+# 1. 기존 리포지토리 폴더로 이동
+import os
+os.chdir('/content/Codeit_AI_4th_Drug_image_CV_project')
+
+# 2. 최신 변경사항 가져오기
+!git pull origin main
+
+# 3. 현재 상태 확인
+!git status
+!git log --oneline -3
+```
+### 2. 작업 중
+```
+# 파일 수정, 코드 작성...
+# 중간 저장 (로컬 커밋)
+!git add .
+!git commit -m "작업 진행 중 - 중간 저장"
+```
+### 3. 작업 완료
+```
+# 1. 최종 커밋
+!git add .
+!git commit -m "실습 내용 추가 및 완료"
+
+# 2. 혹시 다른 팀원이 push했는지 확인
+!git pull origin main
+
+# 3. 최종 push
+!git push origin main
+```
