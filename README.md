@@ -38,8 +38,12 @@
 2025-HEALTH-VISION/
 ├── data/                        # 실제 데이터는 GitHub에 포함되지 않으며,
 │   └── data.txt                 # Google Drive 내 데이터 공유 링크가 담긴 텍스트 파일만 존재
+├── data_preprocess/             # 데이터 전처리 및 자동화 파이프라인 관련 파일 업로드,
+│   ├── data_preprocess.txt      # 디렉토리 개설 목적이 기술 되어있다.
+│   └── data_preprocess.py       # 데이터 전처리 자동화 코드 파일
 ├── notebooks/                   # Jupyter 노트북
-│   └── data_EDA.ipynb           # 데이터 EDA 보고서
+│   ├── data_EDA.ipynb           # 데이터 EDA 보고서
+│   └── data_pipeline.ipynb      # 데이터 전처리 관련 코드 작성
 ├── LICENSE                      # 라이센스
 ├── README.md                    # 프로젝트 문서
 ├── git_clone.ipynb              # Git clone 실습 코드 
