@@ -280,7 +280,7 @@ def create_quick_small_dataset(train_count=200, test_count=100):
         test_size=test_count,
         sampling_strategy="balanced"
     )
-    print(f"🎉 소규모 데이터셋 준비 완료! './data/small_data' 폴더를 확인하세요.")
+    print(f"🎉 소규모 데이터셋 준비 완료! data폴더에 생성된 폴더를 확인하세요.")
 
 # 사용법: 그냥 실행하면 됨
 # if __name__ == "__main__":
