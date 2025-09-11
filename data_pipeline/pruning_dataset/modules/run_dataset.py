@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 설정 기반 데이터셋 생성 실행 스크립트
 
@@ -18,8 +17,8 @@ import argparse
 from pathlib import Path
 
 # 현재 디렉토리의 모듈들 import
-from dataset_prunig import create_small_dataset
-from config import get_config, list_all_configs, get_recommended_config, validate_config, DATASET_CONFIGS
+from pruning_dataset.modules.dataset_splitter import create_small_dataset
+from pruning_dataset.modules.config import get_config, list_all_configs, get_recommended_config, validate_config, DATASET_CONFIGS
 
 def create_dataset_with_config(config_name, source_path="./data"):
     """

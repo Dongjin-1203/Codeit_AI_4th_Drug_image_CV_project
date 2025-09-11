@@ -150,6 +150,11 @@ data/exp_data/
 data/demo_data/
 data/researcher_a_data/
 data/analysis_data/
-
+data/yolo_prototype/
+data/delivery/
+data/final_dataset/
+data/preprocessed/
+data/reports/
+data/yolo_labels/
 # 이미지 파일
 .png
