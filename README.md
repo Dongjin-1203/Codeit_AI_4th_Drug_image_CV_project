@@ -58,6 +58,10 @@ Codeit_AI_4th_Drug_image_CV_project/
 ├── notebooks/                   # Jupyter 노트북
 │   ├── data_EDA.ipynb           # 데이터 EDA 보고서
 │   └── data_pipeline.ipynb      # 데이터 전처리 관련 코드 작성
+├── model/                       # 모델 관련 코드
+│   ├── notebooks/               # Jupyter 노트북
+│   │   ├── ETL_test_YOLOv8.ipynb  # 파이프라인 작동 테스트용 모델 코드
+├── result/                      # 모델학습 및 예측 평가 결과물 탑재
 ├── LICENSE                      # 라이센스
 ├── README.md                    # 프로젝트 문서
 └── git_clone.ipynb              # Git clone 실습 코드 
