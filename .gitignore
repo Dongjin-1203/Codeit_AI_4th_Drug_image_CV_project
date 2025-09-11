@@ -144,10 +144,12 @@ pyrightconfig.json
 data/train_images/
 data/train_annotations/
 data/test_images/
-data/small_data/
-data/small_data_quality/
-data/small_data_prototype/
-data/small_data_meidium/
+data/prototype_data/
+data/dev_data/
+data/exp_data/
+data/demo_data/
+data/researcher_a_data/
+data/analysis_data/
 
 # 이미지 파일
 .png
