@@ -10,6 +10,6 @@ https://velog.io/@phobos90/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EB%AC%B8%EB%B2%9
 __형식과 양식은 자유이니 편하게 작성하시면 되겠습니다.__
 ---
 신승목
-9/16 YOLOv8s (epoch 100, imgsz 1280, batch 8, 전처리 YOLO 기본값) 공유 경로 : results/train/pill_detection_shin
-9/17 17시 작업 중인 내용 : YOLO 학습 결과로 나온 weights/best.pt로 테스트 이미지를 처리했을 때 Kaggle에 제출할 수 있는 형태로 만들 수 있는 코드 짜는 중
+- 9/16 YOLOv8s (epoch 100, imgsz 1280, batch 8, 전처리 YOLO 기본값), 공유 경로 : results/train/pill_detection_shin
+- 9/17 17시 작업 중인 내용 : YOLO 학습 결과로 나온 weights/best.pt로 테스트 이미지를 처리했을 때 Kaggle에 제출할 수 있는 형태로 만들 수 있는 코드 짜는 중
 ---
