@@ -156,5 +156,7 @@ data/final_dataset/
 data/preprocessed/
 data/reports/
 data/yolo_labels/
+data/dataset/
+data/datasets/
 # 이미지 파일
 .png
