@@ -158,5 +158,6 @@ data/reports/
 data/yolo_labels/
 data/dataset/
 data/datasets/
+data/processed/
 # 이미지 파일
 .png
